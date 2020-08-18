@@ -1,0 +1,8 @@
+    1  mkdir ~/week1
+    2  cd ~/week1
+    3  ls /usr/bin  | sort -r | grep gcc > ex1.txt
+    4  history > ex2.txt
+    5  data | sleep 3 | data > ex3.sh
+    6  date | sleep 3 | date > ex3.sh
+    7  sh ex3.sh
+    8  history > ex3_history.txt

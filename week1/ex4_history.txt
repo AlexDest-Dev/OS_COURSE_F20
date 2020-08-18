@@ -1,0 +1,17 @@
+    1  mkdir ~/week1
+    2  cd ~/week1
+    3  ls /usr/bin  | sort -r | grep gcc > ex1.txt
+    4  history > ex2.txt
+    5  data | sleep 3 | data > ex3.sh
+    6  date | sleep 3 | date > ex3.sh
+    7  sh ex3.sh
+    8  history > ex3_history.txt
+    9  gedit ~/week1/main.c
+   10  sudo apt install gedit
+   11  gedit main.c
+   12  gcc main.c -o ex4
+   13  sudo apt-get install libc6-dev
+   14  gcc main.c -o ex4
+   15  ex4
+   16  ./ex4
+   17  history > ex4_history.txt
