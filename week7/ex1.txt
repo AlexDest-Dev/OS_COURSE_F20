@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1623	    608	      8	   2239	    8bf	ex1_sample
