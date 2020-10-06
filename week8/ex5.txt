@@ -1,0 +1,2 @@
+Physical address points on real place of information and if go by it we get information.
+Virtual address is not point on real adress. For getting information we should find physical address through page table.

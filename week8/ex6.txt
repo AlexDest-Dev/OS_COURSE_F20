@@ -1,0 +1,2 @@
+8 KB = 8192 B = 2^16 bits -> 13 bits on displacment
+16 - 13 = 3 bits for pages -> 8 pages overall
