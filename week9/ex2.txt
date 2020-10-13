@@ -1,0 +1,1 @@
+For increasing of hits, we need have a sequence of same pages. For example it can start from the rearest pages and in the end will be subsequence of the most frequent pages. In that case we have less misses and more hits
