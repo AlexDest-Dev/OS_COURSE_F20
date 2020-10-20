@@ -1,0 +1,25 @@
+  651  touch _ex3.txt
+  652  chmod ugo-x _ex3.txt
+  653  ls -l
+    -rw-rw-r-- 1 oem oem   0 Oct 20 15:04 _ex3.txt
+  654  chmod uo=rwx _ex3.txt
+  655  ls -l
+    -rwxrw-rwx 1 oem oem   0 Oct 20 15:04 _ex3.txt
+  656  chmod g=u _ex3.txt
+  657  ls -l
+    -rwxrwxrwx 1 oem oem   0 Oct 20 15:04 _ex3.txt
+  658  history 8 >> ex3.txt
+
+Task:
+1)  chmod 660 _ex3.txt
+    user - read write
+    group - read write
+    other - no permissions
+2)  chmod 775 _ex3.txt
+    user - read write execute
+    group - read write execute
+    other - read execute
+3)  chmod 777 _ex3.txt
+    user - read write execute
+    group - read write execute
+    other - read write execute
