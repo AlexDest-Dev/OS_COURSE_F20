@@ -1,0 +1,37 @@
+DBUF_SIZE = 1024
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+DBUF_SIZE = 2048
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+DBUF_SIZE = 512
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+DBUF_SIZE = 4096
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+O_SYNC DBUF_SIZE = 1024
+real	0m0,013s
+user	0m0,000s
+sys	0m0,002s
+
+O_SYNC DBUF_SIZE = 2048
+real	0m0,006s
+user	0m0,001s
+sys	0m0,000s
+
+O_SYNC DBUF_SIZE = 512
+real	0m0,006s
+user	0m0,001s
+sys	0m0,000s
+
+There is no difference between different DBUF_SIZE for copying of file.
+With enabled O_SYNC time of executing is higher but it not depends from DBUF_SIZE (because for 512 and 2048 we have same time)
