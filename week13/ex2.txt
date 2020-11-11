@@ -1,0 +1,7 @@
+Advantage of deadlock avoidance over recovery that 
+deadlock recovery need all resources but systems request resources one at a time. 
+In that case deadlock avoidance is more preferable
+
+Advantage of deadlock prevention over deadlock avoidance that
+deadlock avoidance uses algorithm which in general useless, because it need information about maximum of resources.
+So, for avoiding of such situation deadlock prevention can be used, because it just block any condition of deadlock
